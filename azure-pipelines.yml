@@ -14,7 +14,7 @@ stages:
   - job: Build
     displayName: Build job
     pool:
-      name: 'agentpoollak'
+      name: 'Azure Pipelines'
     steps:
     - task: DockerInstaller@0
       inputs:
